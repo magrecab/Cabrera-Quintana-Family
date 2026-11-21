@@ -1,0 +1,23 @@
+{
+  "name": "Cabrera Quintana Family — Archivo Familiar",
+  "short_name": "Archivo Familiar",
+  "description": "Archivo digital familiar con documentos, fotos y videos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1e1b4b",
+  "theme_color": "#312e81",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "https://static.wixstatic.com/media/97f0fd_5545902736d54159891f5ccd1cd25554~mv2.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/97f0fd_5545902736d54159891f5ccd1cd25554~mv2.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
