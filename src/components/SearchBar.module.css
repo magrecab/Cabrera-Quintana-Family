@@ -1,0 +1,78 @@
+.searchBar {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.searchBar__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.searchBar__box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--card-bg);
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-card);
+  border: 2px solid transparent;
+  transition: border-color var(--transition-fast);
+}
+
+.searchBar__box:focus-within {
+  border-color: #fde047;
+}
+
+.searchBar__icon {
+  position: absolute;
+  left: 18px;
+  color: var(--text-secondary);
+  pointer-events: none;
+  font-size: 0.95rem;
+}
+
+.searchBar__input {
+  width: 100%;
+  padding: 12px 42px 12px 44px;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.searchBar__input:focus {
+  outline: none;
+}
+
+.searchBar__input::placeholder {
+  color: var(--text-secondary);
+}
+
+.searchBar__clear {
+  position: absolute;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: #e2e8f0;
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.searchBar__clear:hover {
+  background: #cbd5e1;
+}
