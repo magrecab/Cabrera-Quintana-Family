@@ -1,0 +1,58 @@
+/* Tokens de diseño con contraste verificado para fondos oscuros y tarjetas claras */
+:root {
+  /* Colores de fondo y superficies */
+  --bg-gradient-start: #1e1b4b;
+  --bg-gradient-mid: #312e81;
+  --bg-gradient-end: #4c1d95;
+
+  --surface-glass: rgba(15, 23, 42, 0.52);
+  --surface-glass-hover: rgba(15, 23, 42, 0.72);
+  --surface-border: rgba(255, 255, 255, 0.22);
+
+  --card-bg: #ffffff;
+  --card-bg-hover: #f8fafc;
+  --card-border: #e2e8f0;
+
+  /* Colores de texto (alto contraste WCAG AA+) */
+  --text-on-dark: #ffffff;
+  --text-on-dark-muted: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+
+  /* Acentos y badges */
+  --accent-primary: #4338ca;
+  --accent-primary-hover: #3730a3;
+  --accent-pill-active-bg: #ffffff;
+  --accent-pill-active-text: #1e1b4b;
+
+  --badge-doc-bg: #dbeafe;
+  --badge-doc-text: #1e40af;
+  --icon-doc-bg: #eff6ff;
+  --icon-doc-color: #2563eb;
+
+  --badge-photo-bg: #dcfce7;
+  --badge-photo-text: #166534;
+  --icon-photo-bg: #f0fdf4;
+  --icon-photo-color: #16a34a;
+
+  --badge-video-bg: #fee2e2;
+  --badge-video-text: #991b1b;
+  --icon-video-bg: #fef2f2;
+  --icon-video-color: #dc2626;
+
+  --badge-other-bg: #f1f5f9;
+  --badge-other-text: #334155;
+
+  /* Radios, espaciados y sombras */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+
+  --shadow-card: 0 4px 12px rgba(15, 23, 42, 0.14);
+  --shadow-card-hover: 0 12px 24px rgba(15, 23, 42, 0.24);
+  --shadow-pill: 0 6px 16px rgba(15, 23, 42, 0.22);
+
+  --container-max: 1160px;
+  --transition-fast: 180ms ease;
+}
